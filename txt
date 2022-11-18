@@ -1,0 +1,3 @@
+{Data.map((val,index)=>{
+          return <Cards key={index} image ={val.image} PetName={val.PetName} Detail={val.Detail} Breed={val.Breed} Gender={val.Gender}/>
+      })}

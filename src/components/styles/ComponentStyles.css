@@ -1,0 +1,131 @@
+/*colors */
+
+:root {
+  --primary: rgb(228, 161, 28);
+  --secondary: rgb(32, 75, 95);
+  --base: rgb(255, 255, 255);
+}
+
+.SecColor {
+  color: var(--secondary) !important;
+}
+.primColor{
+  color: var(--primary);
+}
+/*navbar styling*/
+.navbar {
+  background-color: var(--primary) !important;
+  width: 100%;
+}
+.navbar li a {
+  color: var(--base) !important;
+}
+.LoginBtn,
+.SignInBtn {
+  margin: 0 0.7rem;
+}
+
+.LoginBtn,
+.SignInBtn:hover {
+  background-color: var(--secondary);
+  color: var(--base);
+  border: 2px solid var(--secondary);
+}
+.LoginBtn:hover,
+.SignInBtn {
+  background-color: var(--primary);
+  color: var(--base);
+  border: 2px solid var(--secondary);
+}
+.CartBtn {
+  font-size: 2rem;
+  color: var(--secondary);
+  background-color: var(--primary);
+  border: none;
+}
+.CartBtn:hover {
+  transform: scale(1.5);
+  color: rgb(255, 68, 99);
+}
+
+.SearchBar {
+  background-color: var(--base);
+  border: 2px solid var(--secondary);
+}
+.SearchBar::placeholder {
+  color: var(--secondary) !important;
+}
+
+.bdSize {
+  font-size: 0.8rem;
+  margin-left: -1.799rem;
+}
+
+/*nav styling over*/
+
+/*home page*/
+.Home {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+}
+.carousel-inner {
+  width: 500px;
+}
+.carousel-item {
+  height: 300px;
+  width: 100%;
+}
+.ShopBtn {
+  background-color: var(--secondary);
+  color: var(--base);
+}
+
+/*card style in pets*/
+.favBtn {
+  background-color: var(--secondary);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  border: none;
+  color: var(--base);
+  box-shadow: black 1px 2px 5px;
+  text-transform: capitalize;
+}
+.favBtn:hover {
+  transform: scale(1.15);
+}
+.contactBtn {
+  border: 2px solid var(--secondary);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+
+  color: var(--secondary);
+
+  text-transform: capitalize;
+}
+.contactBtn:hover{
+  transform: scale(1.15);
+}
+/* card from cart*/
+
+.TrashBtn{
+  border: none;
+  color: var(--secondary);
+  transform: scale(1.8);
+  margin-left:18.5rem;
+  margin-top: 1rem;
+}
+
+
+
+
+/*footer*/
+.Footer {
+  background-color: var(--primary);
+  /* height: 5vh;*/
+}
+.Footer i {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,14 @@
+.App {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+
+  
+}
+
+
+/*colors */
+:root {
+  --primary: rgb(228, 161, 28);
+  --secondary: rgb(32, 75, 95);
+  --base: rgb(255, 255, 255);
+}
